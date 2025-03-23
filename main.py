@@ -11,7 +11,7 @@ def load_data(csv_file):
 def main():
     st.title("Uber pickups in NYC")
     data_load_state = st.text("Loading data...")
-    csv_file = "data/2024.csv"
+    csv_file = "data/2023.csv"
     data = load_data(csv_file=csv_file)
     data_load_state.text("Loading data...done!")
     # data_load_state.text("Done! (using st.cache_data)")
